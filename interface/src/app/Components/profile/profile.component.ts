@@ -24,7 +24,7 @@ export class ProfileComponent implements OnInit {
   }
 
   login() {
-    this.nav.navigateForward('/logincopy');
+    this.nav.navigateForward('/login');
     this.popover.dismiss();
   }
 
