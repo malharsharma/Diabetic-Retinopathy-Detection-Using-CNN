@@ -83,6 +83,7 @@ ion-content {
 
 .card {
   border-radius: 35px;
+  background-color: #ffffff;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -98,16 +99,6 @@ h2 .or {
   background: #ffffff;
   padding: 0 5px;
 }
-
-// ion-input.ng-invalid.ng-touched{
-//   border: 1.5px solid rgb(248, 50, 50);
-//   border-radius: 15px;
-// }
-
-// ion-input.ng-valid.ng-touched{
-//   border: 1.5px solid rgb(44, 141, 20);
-//   border-radius: 15px;
-// }
 
 .warning{
   padding-left: 40px;
