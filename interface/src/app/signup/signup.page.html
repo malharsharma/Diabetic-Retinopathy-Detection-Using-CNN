@@ -26,7 +26,7 @@
                 </ion-col>
               </ion-row>
 
-<!--              <form [formGroup]="signupMobileForm" (ngSubmit)="onSubmit()">-->
+              <form [formGroup]="signupMobileForm" (ngSubmit)="onSubmit()">
                 <ion-row>
                   <ion-col>
                     <div class="inputs">
@@ -43,9 +43,9 @@
                       </div>
                     </div>
 
-<!--                    <ion-text *ngIf="!signupMobileForm.get('phone').valid && signupMobileForm.get('phone').touched"-->
-<!--                              class="help-block" style="padding-left: 42px; color: rgb(255, 116, 116); padding-top: 2px;">-->
-<!--                      Please enter a valid mobile number</ion-text>-->
+                    <ion-text *ngIf="!signupMobileForm.get('phone').valid && signupMobileForm.get('phone').touched"
+                              class="help-block" style="padding-left: 42px; color: rgb(255, 116, 116); padding-top: 2px;">
+                      Please enter a valid mobile number</ion-text>
                   </ion-col>
                 </ion-row>
                 <div id='check' style="color:rgb(255, 116, 116); padding-left: 50px"></div>
@@ -53,18 +53,18 @@
 
                 <ion-row class="ion-justify-content-center" style="padding: 30px 25px 10px 35px">
                   <ion-card-content class="check">
-<!--                    <ion-checkbox [(ngModel)]='isChecked' [ngModelOptions]="{standalone: true}" style="&#45;&#45;size:13px; &#45;&#45;border-color: rgba(255, 255, 255, 0.6); &#45;&#45;background: rgba(0,0,0,0.2)"></ion-checkbox>-->
+                    <ion-checkbox [(ngModel)]='isChecked' [ngModelOptions]="{standalone: true}" style="--size:13px; --border-color: rgba(255, 255, 255, 0.6); --background: rgba(0,0,0,0.2)"></ion-checkbox>
                     <ion-text> I agree with the <b style="color: #6FD6FF; cursor: pointer;" routerLink="/terms">Terms & Conditions</b> and <b style="color: #6FD6FF; cursor: pointer;" routerLink="/terms">Privacy Policy</b></ion-text>
                   </ion-card-content>
                 </ion-row>
 
                 <ion-row class="ion-justify-content-center">
                   <ion-col  size="6" style="padding-bottom: 30px; padding-top: 30px;" >
-<!--                    <ion-button [disabled]='!isChecked' class="login-button" type='submit' (click)='shareContact(signupMobileForm.value.phone)'  [routerLink]="userexists() ? [] : ['/otp-signup']">Continue</ion-button>-->
+                    <ion-button [disabled]='!isChecked' class="login-button" type='submit' (click)='shareContact(signupMobileForm.value.phone)'  [routerLink]="userexists() ? [] : ['/otp-signup']">Continue</ion-button>
                   </ion-col>
                 </ion-row>
 
-<!--              </form>-->
+              </form>
             </ion-card>
           </ion-col>
         </ion-row>
