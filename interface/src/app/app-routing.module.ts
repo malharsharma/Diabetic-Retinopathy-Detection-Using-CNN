@@ -22,6 +22,10 @@ const routes: Routes = [
     path: 'otp-signup',
     loadChildren: () => import('./otp-signup/otp-signup.module').then( m => m.OtpSignupPageModule)
   },
+  {
+    path: 'create-profile',
+    loadChildren: () => import('./create-profile/create-profile.module').then( m => m.CreateProfilePageModule)
+  },
 
 ];
 
