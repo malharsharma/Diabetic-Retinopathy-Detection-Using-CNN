@@ -26,6 +26,10 @@ const routes: Routes = [
     path: 'create-profile',
     loadChildren: () => import('./create-profile/create-profile.module').then( m => m.CreateProfilePageModule)
   },
+  {
+    path: 'update-profile',
+    loadChildren: () => import('./update-profile/update-profile.module').then( m => m.UpdateProfilePageModule)
+  },
 
 ];
 
