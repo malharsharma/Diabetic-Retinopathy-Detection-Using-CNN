@@ -10,13 +10,13 @@
           <ion-col size="8">
             <ion-card class="card" style="float: right;">
               <ion-row class="ion-justify-content-center">
-                <ion-col size="3.5" style="padding-top: 15px; padding-bottom: 0px">
+                <ion-col size="3.5" style="padding-top: 30px; padding-bottom: 0px">
                   <img src="../../assets/images/Picture2.png">
                 </ion-col>
               </ion-row>
 
               <ion-row>
-                <ion-col style="padding: 15px 25px 0px 25px">
+                <ion-col style="padding: 15px 25px 10px 25px">
                   <ion-title class="options1" routerLink="/logincopy">
                     LOGIN
                   </ion-title>
@@ -59,7 +59,7 @@
                 </ion-row>
 
                 <ion-row class="ion-justify-content-center">
-                  <ion-col  size="6" style="padding-bottom: 30px; padding-top: 30px;" >
+                  <ion-col  size="6" style="padding-bottom: 60px; padding-top: 30px;" >
                     <ion-button [disabled]='!isChecked' class="login-button" type='submit' (click)='shareContact(signupMobileForm.value.phone)'  [routerLink]="userexists() ? [] : ['/otp-signup']">Continue</ion-button>
                   </ion-col>
                 </ion-row>
