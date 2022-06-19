@@ -6,13 +6,13 @@
         <ion-card class="card">
           <ion-grid style="width: 100%;">
             <ion-row class="ion-justify-content-center">
-              <ion-col size="3" style="padding-top: 10px; padding-bottom: 0px">
+              <ion-col size="3" style="padding-top: 40px; padding-bottom: 10px">
                 <img src="../../assets/images/logo.png">
               </ion-col>
             </ion-row>
 
-            <ion-row >
-              <ion-col style="padding-top: 0px; padding-bottom: 0px">
+            <ion-row>
+              <ion-col style="padding-top: 0px; padding-bottom: 10px">
                 <ion-title class="options1">
                   LOGIN
                 </ion-title>
@@ -66,7 +66,7 @@
                     <div id='checkPass'></div>
                   </ion-card-content>
                   <ion-row>
-                    <ion-col class="ion-padding" style="padding-top: 25px; padding-bottom: 5px;">
+                    <ion-col class="ion-padding" style="padding-top: 40px; padding-bottom: 5px;">
                       <ion-button class="primButton" type="submit" (click)='onSubmit()' [routerLink]="this.letsgo() ? ['/home-page'] : []">Login</ion-button>
                     </ion-col>
                   </ion-row>
@@ -75,17 +75,17 @@
 
 
               <ion-row>
-                <ion-col class="ion-padding" style="padding-top: 10px; padding-bottom: 10px;">
+                <ion-col class="ion-padding" style="padding-top: 15px; padding-bottom: 15px;">
                   <ion-card-title class="ion-text-center" style="color: rgba(0,0,0,0.6)">
                     <h2>
-                      <ion-text class="or" style="font-size: 17px;">OR</ion-text>
+                      <ion-text class="or" style="font-size: 20px;">OR</ion-text>
                     </h2>
                   </ion-card-title>
                 </ion-col>
               </ion-row>
 
               <ion-row>
-                <ion-col class="ion-padding" style="padding-top: 10px; padding-bottom: 35px;">
+                <ion-col class="ion-padding" style="padding-top: 10px; padding-bottom: 65px;">
                   <ion-button class="secButton" shape="round" (click)='otp(); share()' fill="outline"  [routerLink]="this.exists ? ['/otp-email'] : []">Request OTP</ion-button>
                   <div id='otp' style="color: rgb(255, 116, 116); padding-left: 60px;"></div>
                 </ion-col>
