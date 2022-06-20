@@ -34,6 +34,10 @@ const routes: Routes = [
     path: 'update-password',
     loadChildren: () => import('./update-password/update-password.module').then( m => m.UpdatePasswordPageModule)
   },
+  {
+    path: 'otp-email',
+    loadChildren: () => import('./otp-email/otp-email.module').then( m => m.OtpEmailPageModule)
+  },
 
 ];
 
