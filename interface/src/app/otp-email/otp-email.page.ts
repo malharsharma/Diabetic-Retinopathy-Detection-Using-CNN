@@ -8,7 +8,7 @@ import { NavController } from '@ionic/angular';
   styleUrls: ['./otp-email.page.scss'],
 })
 export class OtpEmailPage implements OnInit {
-  otplist= ['1234', '4321'];
+  otplist = ['1234', '4321'];
   otpForm: FormGroup;
   userPhone: string;
   check: boolean;
@@ -37,7 +37,7 @@ export class OtpEmailPage implements OnInit {
         if(this.user[i].email===this.detail || this.user[i].phone===this.detail)
         {
           sessionStorage.setItem('user',JSON.stringify(this.user[i]));
-          this.nav.navigateForward('/home-page');
+          this.nav.navigateForward('/home');
           break;
         }
       }
