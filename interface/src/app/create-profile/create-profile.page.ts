@@ -61,7 +61,7 @@ export class CreateProfilePage implements OnInit {
       this.users.push(this.accountForm.value);
       localStorage.setItem('user', JSON.stringify(this.users));
       this.accountForm.reset();
-      this.nav.navigateForward('/logincopy');
+      this.nav.navigateForward('/login');
     }
     else
     {
