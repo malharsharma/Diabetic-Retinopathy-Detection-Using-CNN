@@ -4,11 +4,10 @@
   "author": "Ionic Framework",
   "homepage": "https://ionicframework.com/",
   "scripts": {
-    "start": "node index.js",
     "heroku-postbuild": "ng build — prod",
     "ng": "ng",
     "build": "ng build",
-    "test": "ng test",
+    "start": "node index.js",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
