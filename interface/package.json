@@ -7,7 +7,7 @@
     "heroku-postbuild": "ng build — prod",
     "ng": "ng",
     "build": "ng build",
-    "start": "node server.js",
+    "start": "ionic serve",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
