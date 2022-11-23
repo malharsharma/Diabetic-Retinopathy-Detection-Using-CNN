@@ -8,7 +8,6 @@
     "ng": "ng",
     "build": "ng build",
     "start": "ionic serve",
-    "run": "ionic serve",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
