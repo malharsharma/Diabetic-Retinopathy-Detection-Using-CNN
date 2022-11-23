@@ -4,7 +4,7 @@
   "author": "Ionic Framework",
   "homepage": "https://ionicframework.com/",
   "scripts": {
-    "heroku-postbuild": "ng build — prod",
+    "heroku-postbuild": "ng build",
     "ng": "ng",
     "build": "ng build",
     "start": "ionic serve",
